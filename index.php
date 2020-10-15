@@ -1,20 +1,20 @@
 
 <?php
 
-$contacts = array(
+$contact = array(
     array(
-        "name" => "Peter Parker",
-        "email" => "peterparker@mail.com",
+        "nume" => "Pop Paul",
+        "email" => "poppaul@mail.com",
     ),
     array(
-        "name" => "Clark Kent",
-        "email" => "clarkkent@mail.com",
+        "nume" => "Popovici Daniel",
+        "email" => "popovici@mail.com",
     ),
     array(
-        "name" => "Harry Potter",
-        "email" => "harrypotter@mail.com",
+        "nume" => "Maxim Ionut",
+        "email" => "maximionut@mail.com",
     )
 );
 
-echo "Peter Parker's Email-id is: " . $contacts[0]["email"];
+echo "Emailuln lui Maxim Ionut este : " . $contact[2]["email"];
 ?>
