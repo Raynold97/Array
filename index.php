@@ -1,15 +1,20 @@
+
 <?php
-function getArray() {
-    return array(1, 2, 3);
-}
 
-// on PHP 5.4
-$secondElement = getArray()[1];
+$contacts = array(
+    array(
+        "name" => "Peter Parker",
+        "email" => "peterparker@mail.com",
+    ),
+    array(
+        "name" => "Clark Kent",
+        "email" => "clarkkent@mail.com",
+    ),
+    array(
+        "name" => "Harry Potter",
+        "email" => "harrypotter@mail.com",
+    )
+);
 
-// previously
-$tmp = getArray();
-$secondElement = $tmp[1];
-
-// or
-list(, $secondElement) = getArray();
+echo "Peter Parker's Email-id is: " . $contacts[0]["email"];
 ?>
